@@ -271,6 +271,14 @@ h3 {
 @media only screen and (max-width: 640px){
 
 /* top section responsive - no need for change */
+.heroImage {
+  background-image: url(Images/header.jpg);
+  background-size: cover;
+  grid-area: 1/1/4/12;
+  z-index: -1;
+  height: 100%;
+}
+
   .miniAbout {
     background-color: #ffffff;
     justify-content: center;
@@ -284,7 +292,7 @@ h3 {
     line-height: 5vmin;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5px;
   }
 
   .def p {
@@ -304,7 +312,7 @@ h3 {
     font-weight: 500;
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 5px;
   }
 
   .galleryIntro {
@@ -319,7 +327,7 @@ h3 {
   .galleryIntro img {
     width: 65%;
     height: 65%;
-    padding: 10px;
+    padding: 5px;
   }
 
   .gallery {
@@ -364,8 +372,8 @@ h3 {
 
   .edenFooter {
     font-family: Josefin Sans, sans-serif;
-    font-size: 4vmin;
-    line-height: 6vmin;
+    font-size: 7vmin;
+    line-height: 10vmin;
     text-align: center;
     display: block;
     padding: 30px;
